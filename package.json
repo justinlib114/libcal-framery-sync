@@ -1,1 +1,19 @@
-
+{
+  "name": "libcal-framery-sync",
+  "version": "1.0.0",
+  "description": "Sync LibCal Spaces bookings to Google Workspace resource calendars for Framery pods (no DB)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
